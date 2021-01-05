@@ -1,11 +1,8 @@
-.icone{
-    display: flex;
-    height: 50px;
-    width: 50px;
-    margin-right: 12px;
-    align-items: center;
-    justify-content: center;
-    background-color: #DEEBFF;
-    border-radius: 50px;
-    color: #0065FC;
+a{
+    text-decoration: none;
+}
+
+
+li{
+    list-style-type: none;
 }

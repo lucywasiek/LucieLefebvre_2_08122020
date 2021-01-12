@@ -1,28 +1,26 @@
 body{
-    margin: 0;
-}
-body, button, input{
-    font-family: 'Raleway', sans-serif;
+    margin: 5;
+    padding-right: 10px;
 }
 main{
     max-width: 1340px;
     margin: 0 auto;
 }
-h2{
-    font-size: 1.25rem;
-    margin: 0;
+
+body, input, button{
+    font-family: 'Raleway', sans-serif;
 }
-h3{
-    font-size: 1.06rem;
+
+
+h2{
+    margin: 0;
     font-weight: bold;
 }
-h4{
+h3{
     font-size: 1rem;
     font-weight: bold;
 }
-p{
-    font-size: 0.8rem;
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -30,17 +28,11 @@ a{
 a:hover{
     color: #0065FC;
 }
-.greyStar{
-    color: #F2F2F2;
-}
 
-/*HEADER*/
+/*-------------------------------- HEADER ---------------------------------*/
 header{
     display: flex;
     flex-wrap: wrap;
-}
-header img{
-    padding: 48px 0;
 }
 nav{
     flex: 1;
@@ -65,9 +57,12 @@ header span a{
     color: #0065FC;
     font-weight: bold;
 }
-.titreSoustitre{
+header img{
+    padding: 47px 0;
+}
+.legende{
     flex-basis: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 /*SECTION RECHERCHE*/

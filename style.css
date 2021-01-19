@@ -246,14 +246,14 @@ input[type=submit]:hover{
     background-color: #F2F2F2;
     border-radius: 15px;
 }
-.resultatsPrincipaux h2, .afficherPlus{
+.resultatsRecherche h2, .afficherPlus{
     padding-left: 40px;
 }
 .afficherPlus{
     font-size: 1.06rem;
     font-weight: bold;
 }
-.resultatspop{
+.resultatsPop{
     width: 420px;
     display: flex;
     flex-direction: column;

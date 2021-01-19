@@ -229,3 +229,18 @@ input[type=submit]:hover{
 .fas fa-info-circle{
     color: blue;
 }
+
+/*----------------------FOOTER-------------------------*/
+
+
+.sectionFooter{
+    flex-direction: column;
+}
+footer h3{
+    padding: 46px 0 9px 0;
+}
+.sectionFooter div{
+    margin-right: 0;
+    margin-left: 20px;
+    padding-bottom: 0;
+}

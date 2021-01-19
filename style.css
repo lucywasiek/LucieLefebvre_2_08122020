@@ -1,30 +1,30 @@
 /* -----------------------------------------images */
 .cannebiere{
-    background-image: url(../public/images/hebergements/small/aubergecannebiere.jpg);
+    background-image: url(../images/hebergements/small/aubergecannebiere.jpg);
 }
 .hotelPort{
     background-image: url(../public/images/hebergements/small/hotelport.jpg);
 }
 .hotelMouettes{
-    background-image:url(../public/images/hebergements/small/hotelMouettes.jpg);
+    background-image: url(../public/images/hebergements/small/hotelMouettes.jpg);
 }
 .hotelMer{
-    background-image:url(../public/images/hebergements/small/hotelmer.jpg);
+    background-image: url(../public/images/hebergements/small/hotelmer.jpg);
 }
 .aubergePanier{
-    background-image:url(../public/images/hebergements/small/aubergepanier.jpg);
+    background-image: url(../public/images/hebergements/small/aubergepanier.jpg);
 }
 .hotelAmina{
-    background-image:url(../public/images/hebergements/small/hotelamina.jpg);
+    background-image: url(../public/images/hebergements/small/hotelamina.jpg);
 }
 .hotelSoleil{
-    background-image:url(../public/images/hebergements/small/hotelsoleil.jpg);
+    background-image: url(../public/images/hebergements/small/hotelsoleil.jpg);
 }
 .aucoeurdeleau{
-    background-image:url(../public/images/hebergements/small/aucoeurdeleau.jpg);
+    background-image: url(../public/images/hebergements/small/aucoeurdeleau.jpg);
 }
 .hotelBleuBlanc{
-    background-image:url(../public/images/hebergements/small/hotelbleublanc.jpg);
+    background-image: url(../public/images/hebergements/small/hotelbleublanc.jpg);
 }
 
 .vieuxPort{

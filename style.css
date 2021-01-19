@@ -5,6 +5,13 @@
 .hotelPort{
     background-image: url(../images/hebergements/small/hotelport.jpg);
 }
+.hotelAmina{
+    background-image: url(../images/hebergements/small/hotelamina.jpg);
+}
+.hotelSoleil{
+    background-image: url(../images/hebergements/small/hotelsoleil.jpg);
+}
+
 .hotelMouettes{
     background-image: url(../images/hebergements/small/hotelMouettes.jpg);
 }
@@ -14,12 +21,7 @@
 .aubergePanier{
     background-image: url(../images/hebergements/small/aubergepanier.jpg);
 }
-.hotelAmina{
-    background-image: url(../images/hebergements/small/hotelamina.jpg);
-}
-.hotelSoleil{
-    background-image: url(../images/hebergements/small/hotelsoleil.jpg);
-}
+
 .aucoeurdeleau{
     background-image: url(../images/hebergements/small/aucoeurdeleau.jpg);
 }
@@ -30,12 +32,13 @@
 .vieuxPort{
     background-image: url(../images/activites/small/vieuxport.jpg);
 }
-.fortPomegues{
-    background-image: url(../images/activites/small/fortpomegues.jpg);
-}
 .ileFrioul{
     background-image: url(../images/activites/small/ilefrioul.jpg);
 }
+.fortPomegues{
+    background-image: url(../images/activites/small/fortpomegues.jpg);
+}
+
 .parcCalanques{
     background-image: url(../images/activites/small/parcalanques.jpg);
 }

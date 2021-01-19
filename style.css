@@ -20,29 +20,29 @@
 .hotelSoleil{
     background-image:url(../public/images/hebergements/small/hotelsoleil.jpg);
 }
-.chambreCoeurEau{
+.aucoeurdeleau{
     background-image:url(../public/images/hebergements/small/aucoeurdeleau.jpg);
 }
 .hotelBleuBlanc{
     background-image:url(../public/images/hebergements/small/hotelbleublanc.jpg);
 }
 
-.activitePort{
+.vieuxPort{
     background-image: url(../public/images/activites/small/vieuxport.jpg);
 }
-.activitePomegues{
+.fortPomegues{
     background-image: url(../public/images/activites/small/fortpomegues.jpg);
 }
-.activiteFrioul{
+.ileFrioul{
     background-image: url(../public/images/activites/small/ilefrioul.jpg);
 }
-.activiteCalanques{
+.parcCalanques{
     background-image: url(../public/images/activites/small/parcalanques.jpg);
 }
-.activiteNotreDame{
+.notreDame{
     background-image: url(../public/images/activites/small/notredame.jpg);
 }
-.activiteLongchamp{
+.parcLongchamp{
     background-image: url(../public/images/activites/small/parclongchamp.jpg);
 }
 

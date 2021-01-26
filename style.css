@@ -30,7 +30,7 @@
 }
 
 .vieuxPort{
-    background-image: url(./images/activites/small/vieuxport.jpg);
+    background-image: url(../images/activites/small/vieuxport.jpg);
 }
 .ileFrioul{
     background-image: url(./images/activites/small/ilefrioul.jpg);
@@ -366,17 +366,58 @@ input[type=submit]:hover{
     margin: 15px 0;
 }
 
+/*----------------------ACTIVITEES-------------------------*/
+.Activites{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 446px;
+    margin-top: 24px;
+}
+.propositionsActivites{
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
+}
+.imgActivites{
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.boxActivites h3{
+    padding: 17px 22px;
+    margin: 0;
+}
+.boxActivites:hover{
+    box-shadow: none;
+}
+
 /*----------------------FOOTER-------------------------*/
 
+footer{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.contenuFooter div{
+    margin-right: 230px;
+    padding-bottom: 30px;
+}
+.contenuFooter{
+    margin: auto;
+    display: flex;
+}
 
-.sectionFooter{
-    flex-direction: column;
+footer h4{
+    padding: 45px 0 9px 0;
 }
-footer h3{
-    padding: 46px 0 9px 0;
+li{
+    font-size: 1.06rem;
+    padding: 10px 0;
 }
-.sectionFooter div{
-    margin-right: 0;
-    margin-left: 20px;
-    padding-bottom: 0;
+ul{
+    list-style: none;
+    padding: 0;
 }

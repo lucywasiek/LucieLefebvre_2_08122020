@@ -1,12 +1,12 @@
 /* -----------------------------------------images */
 .cannebiere{
-    background-image: url(images/hebergements/cannebiere.jpg);
+    background-image: url(images/hebergements/small/cannebiere.jpg);
 }
 .hotelPort{
-    background-image: url(../images/hebergements/small/hotelport.jpg);
+    background-image: url(images/hebergements/small/hotelport.jpg);
 }
 .hotelAmina{
-    background-image: url(../images/hebergements/small/hotelamina.jpg);
+    background-image: url(./images/hebergements/small/hotelamina.jpg);
 }
 .hotelSoleil{
     background-image: url(../images/hebergements/small/hotelsoleil.jpg);

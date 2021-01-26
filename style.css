@@ -1,52 +1,52 @@
 /* -----------------------------------------images */
 .cannebiere{
-    background-image: url(images/hebergements/small/cannebiere.jpg);
+    background-image: url(./images/hebergements/small/aubergecannebiere.jpg);
 }
 .hotelPort{
-    background-image: url(images/hebergements/small/hotelport.jpg);
+    background-image: url(./images/hebergements/small/hotelport.jpg);
 }
 .hotelAmina{
     background-image: url(./images/hebergements/small/hotelamina.jpg);
 }
 .hotelSoleil{
-    background-image: url(../images/hebergements/small/hotelsoleil.jpg);
+    background-image: url(./images/hebergements/small/hotelsoleil.jpg);
 }
 
 .hotelMouettes{
-    background-image: url(../images/hebergements/small/hotelMouettes.jpg);
+    background-image: url(./images/hebergements/small/hotelMouettes.jpg);
 }
 .hotelMer{
-    background-image: url(../images/hebergements/small/hotelmer.jpg);
+    background-image: url(./images/hebergements/small/hotelmer.jpg);
 }
 .aubergePanier{
-    background-image: url(../images/hebergements/small/aubergepanier.jpg);
+    background-image: url(./images/hebergements/small/aubergepanier.jpg);
 }
 
 .aucoeurdeleau{
-    background-image: url(../images/hebergements/small/aucoeurdeleau.jpg);
+    background-image: url(./images/hebergements/small/aucoeurdeleau.jpg);
 }
 .hotelBleuBlanc{
-    background-image: url(../images/hebergements/small/hotelbleublanc.jpg);
+    background-image: url(./images/hebergements/small/hotelbleublanc.jpg);
 }
 
 .vieuxPort{
-    background-image: url(../images/activites/small/vieuxport.jpg);
+    background-image: url(./images/activites/small/vieuxport.jpg);
 }
 .ileFrioul{
-    background-image: url(../images/activites/small/ilefrioul.jpg);
+    background-image: url(./images/activites/small/ilefrioul.jpg);
 }
 .fortPomegues{
-    background-image: url(../images/activites/small/fortpomegues.jpg);
+    background-image: url(./images/activites/small/fortpomegues.jpg);
 }
 
 .parcCalanques{
-    background-image: url(../images/activites/small/parcalanques.jpg);
+    background-image: url(./images/activites/small/parcalanques.jpg);
 }
 .notreDame{
-    background-image: url(../images/activites/small/notredame.jpg);
+    background-image: url(./images/activites/small/notredame.jpg);
 }
 .parcLongchamp{
-    background-image: url(../images/activites/small/parclongchamp.jpg);
+    background-image: url(./images/activites/small/parclongchamp.jpg);
 }
 
 .imgRecherche{
@@ -195,11 +195,9 @@ input[type=submit]:hover{
 }
 .filtre button{
     display: flex;
-    cursor: pointer;
     align-items: center;
-
     height: 50px;
-    font-size: 17px;
+    font-size: 1.06rem;
     font-weight: bold;
     border: 2px solid #F2F2F2;
     border-radius: 50px;
@@ -207,7 +205,7 @@ input[type=submit]:hover{
     padding: 0 20px 0 0;
     margin-right: 24px;
     outline: none;
-    
+    cursor: pointer;
 }
 .buttonfilter{
     display: flex;
@@ -222,11 +220,12 @@ input[type=submit]:hover{
 }
 .filtre button:hover .icone{
     color: black;
-    
+    background-color: white;
     border-color: #F2F2F2;
 }
 .filtre button:hover{
-    border-color: #DEEBFF;
+    background-color: #DEEBFF;
+    color: #0065FC;
 }
 
 .fas fa-info-circle{

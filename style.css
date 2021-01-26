@@ -71,8 +71,11 @@
 /* -----------------------------------------general 1 */
 
 body{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+section{
     margin: 5px;
-    padding-right: 10px;
 }
 main{
     max-width: 1340px;
@@ -145,7 +148,7 @@ header img{
 }
 .champRecherche{
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 .fa-map-marker-alt{
     padding: 16.5px 19px;
@@ -233,10 +236,16 @@ input[type=submit]:hover{
 }
 /*----------------------RESULTATS-----------------------*/
 
-.resultats{
-    margin-bottom: 60px;
+.hebergement{
+    display: flex;
+    justify-content: space-between;
+    max-height: 626px;
 }
-
+.hotelprincipaux{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
+}
 .resultatshebergement{
     display: flex;
     flex-direction: column;
@@ -252,7 +261,7 @@ input[type=submit]:hover{
     font-size: 1.06rem;
     font-weight: bold;
 }
-.resultatsPop{
+.lesPlusPopulaires{
     width: 420px;
     display: flex;
     flex-direction: column;
@@ -262,6 +271,72 @@ input[type=submit]:hover{
     background-color: #F2F2F2;
     border-radius: 15px;
 }
+.lesPlusPopulaires .fa-chart-line{
+    margin-left: 118px;
+}
+.lesPlusPopulaires .conteneur{
+    flex-direction: column;
+}
+.conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.propositionHebergement{
+    padding: 5px 5px 10px 5px;
+}
+.hotelPopulaire{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
+}
+.hotelPopulaire{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
+}
+.hotelPopulaire .resultatsRecherche h4{
+    padding-left: 12px;
+    margin: 2px 0 0 0;
+}
+.hotelPopulaire h4{
+    padding-left: 12px;
+    margin: 2px 0 0 0;
+}
+.hotelPopulaire p{
+    font-size: 0.8rem;
+    padding-left: 12px;
+    margin: 6px 0;
+}
+.hotelPopulaire .note{
+    padding-left: 12px;
+    color: #0065FC;
+}
+.hotelPopulaire:hover{
+    box-shadow: none;
+}
+.imgPop{
+    width: 127px;
+    height: 134px;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.hotelPopulaire{
+    display: flex;
+    width: 334px;
+    height: 134px;
+    padding: 5px;
+}
+.textHotelPopulaire p{
+    margin-bottom: 35%;
+}
+.lienHotel{
+    margin: 15px 0;
+}
+
 
 .resultatsrecherche{
     display: flex;
@@ -290,6 +365,7 @@ input[type=submit]:hover{
 .hotelprincipaux{
     margin: 15px 0;
 }
+
 /*----------------------FOOTER-------------------------*/
 
 

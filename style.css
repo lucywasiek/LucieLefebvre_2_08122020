@@ -1,3 +1,48 @@
+/* -----------------------------------------general 1 */
+
+body{
+    padding: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+section{
+
+    display: block;
+    margin: 5px;
+}
+main{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.greyStar{
+    color: #F2F2F2;
+}
+
+body, input, button, footer{
+    font-family: 'Raleway', sans-serif;
+}
+
+h2{
+    margin: 0;
+    font-weight: bold;
+}
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #0065FC;
+}
+
+
+
 /* -----------------------------------------images */
 .cannebiere{
     background-image: url(./images/hebergements/small/aubergecannebiere.jpg);
@@ -30,7 +75,7 @@
 }
 
 .vieuxPort{
-    background-image: url(../images/activites/small/vieuxport.jpg);
+    background-image: url(./images/activites/small/vieuxPort);
 }
 .ileFrioul{
     background-image: url(./images/activites/small/ilefrioul.jpg);
@@ -68,41 +113,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-/* -----------------------------------------general 1 */
 
-body{
-    margin-right: 25px;
-    margin-left: 25px;
-}
-section{
-    margin: 5px;
-}
-main{
-    max-width: 1340px;
-    margin: 0 auto;
-}
-
-body, input, button, footer{
-    font-family: 'Raleway', sans-serif;
-}
-/* -----------------------------------------------general 2 */
-
-h2{
-    margin: 0;
-    font-weight: bold;
-}
-h3{
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    color: #0065FC;
-}
 
 /*-------------------------------- HEADER ---------------------------------*/
 header{
@@ -120,10 +131,10 @@ nav a{
     width: 162px;
     text-align: center;
     padding-top: 48px;
-    border-top: 3px solid #F2F2F2;
 }
 .topmenu nav a:hover{
     border-color: #0065FC;
+    border-top: 3px solid;
 }
 header span{
     padding-right: 28px;
@@ -137,8 +148,9 @@ header img{
     padding: 47px 0;
 }
 .legende{
-    flex-basis: 100%;
+    
     margin-bottom: 25px;
+    flex-basis: 100%;
 }
 
 /*----------------------RECHERCHE-----------------------------*/
@@ -189,6 +201,7 @@ input[type=submit]:hover{
 }
 
 .filtre{
+    padding: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -202,13 +215,13 @@ input[type=submit]:hover{
     height: 50px;
     font-size: 1.06rem;
     font-weight: bold;
+    outline: none;
+    cursor: pointer;
     border: 2px solid #F2F2F2;
     border-radius: 50px;
     background: none;
     padding: 0 20px 0 0;
     margin-right: 24px;
-    outline: none;
-    cursor: pointer;
 }
 .buttonfilter{
     display: flex;
@@ -234,23 +247,45 @@ input[type=submit]:hover{
 .fas fa-info-circle{
     color: blue;
 }
+.infoNombreLogement{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
 /*----------------------RESULTATS-----------------------*/
+
+.resultat{
+    margin-bottom: 30%;
+    
+}
+.sectionResultat{
+    display: flex;
+    justify-content: space-between;
+    max-height: 100%;
+}
 
 .hebergement{
     display: flex;
     justify-content: space-between;
     max-height: 626px;
+    margin-right: 20%;
+}
+.hebergementtitle{
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 .hotelprincipaux{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
 }
+
 .resultatshebergement{
     display: flex;
     flex-direction: column;
-    max-width: 880px;
+    max-width: 840px;
     padding: 40px 0;
+    margin-left: 10px;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
@@ -291,11 +326,7 @@ input[type=submit]:hover{
     border-radius: 10px;
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
 }
-.hotelPopulaire{
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
-}
+
 .hotelPopulaire .resultatsRecherche h4{
     padding-left: 12px;
     margin: 2px 0 0 0;
@@ -367,27 +398,22 @@ input[type=submit]:hover{
 }
 
 /*----------------------ACTIVITEES-------------------------*/
-.Activites{
+.activites{
+    margin-bottom: 62px;
+}
+.conteneurActivites{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-between;
-    height: 446px;
-    margin-top: 24px;
 }
-.propositionsActivites{
+.boxActivites{
     border-radius: 10px;
-    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.240);
 }
-.imgActivites{
-    width: 300px;
-    background-size: cover;
-    background-position: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.boxActivites h3{
+
+.boxActivites h4{
     padding: 17px 22px;
     margin: 0;
 }
@@ -396,26 +422,25 @@ input[type=submit]:hover{
 }
 
 /*----------------------FOOTER-------------------------*/
-
 footer{
     width: 100%;
     background-color: #F2F2F2;
 }
-.contenuFooter div{
-    margin-right: 230px;
-    padding-bottom: 30px;
-}
 .contenuFooter{
+    max-width: 1340px;
     margin: auto;
     display: flex;
 }
-
-footer h4{
-    padding: 45px 0 9px 0;
+.contenuFooter div{
+    margin-right: 228px;
+    padding-bottom: 29px;
+}
+footer h3{
+    padding: 46px 0 9px 0;
 }
 li{
     font-size: 1.06rem;
-    padding: 10px 0;
+    padding: 9px 0;
 }
 ul{
     list-style: none;

@@ -127,14 +127,20 @@ nav{
     justify-content: flex-end;
     
 }
-nav a{
-    width: 162px;
-    text-align: center;
-    padding-top: 48px;
-}
+
 .topmenu nav a:hover{
     border-color: #0065FC;
     border-top: 3px solid;
+}
+
+nav a{
+    width: 162px;
+    text-align: center;
+    padding-top: 47px;
+    border-top: 3px solid #f2f2f200;
+}
+nav a:hover{
+    border-color: #0065FC;
 }
 header span{
     padding-right: 28px;
